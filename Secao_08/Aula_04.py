@@ -1,15 +1,5 @@
-#Funções dentro de Listas - Aula 03
+#Concatenando Listas - Aula 04
 
-cidades = ['Rio de Janeiro', 'São Paulo', 'Salvador', 'Belo Horizonte']
+itens = [['item1', 'item2'], ['item3', 'item4']]
 
-cidades.append('Santa Catarina')
-
-cidades.remove('Salvador')
-
-cidades.insert(2, 'Recife')
-
-cidades.pop(0)
-
-cidades.sort()
-
-print(cidades)
+print(itens[1][0])
